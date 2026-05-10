@@ -57,7 +57,7 @@ def main():
             )
 
             # Convert to DataFrame
-            pred_df = data.get_data_as_data_frame()
+            pred_df = data.get_data_as_dataframe()
             
             st.subheader("Input Dataframe")
             st.write(pred_df)
