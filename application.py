@@ -64,7 +64,7 @@ def main():
 
             # Prediction Pipeline
             predict_pipeline = PredictPipeline()
-            results = predict_pipeline.predict(pred_df)
+            results = predict_pipeline.Predict(pred_df)
 
             # Display Results
             st.success(f"The predicted Maths Score is: **{results[0]:.2f}**")
